@@ -1,0 +1,69 @@
+//GENERAL//
+*{margin:0px;}
+body{background-color: $c_bg;}
+header, footer{
+    background-color: $c_principal;
+    img{width:20%}
+    a,h4,p,i,li{
+        color: white;
+        a &:hover{
+            color: black;
+        }
+    }
+
+}
+
+footer{
+    padding:2rem;
+}
+
+.formulario{
+    background-color: $c_quinto;
+    margin: 4rem 6rem;
+    padding: 3rem;
+    h3{color: white;}
+}
+
+//INDEX//
+
+.bodyIndex{
+    main{
+        .banner{
+            padding:4rem 2rem;
+            margin:0px;
+            background-color: $c_secundario;
+            p, h1{color: white;}
+            img{width:80%;}
+            margin-bottom: 2rem;
+        }
+        .links{
+            div{
+                margin: 2rem;
+                border-color: $c_quinto;
+                border-width: 0.2rem;
+                border-style: solid;
+                border-radius: 30px;
+                padding:3%;
+
+                h2{
+                    padding:15px;
+                    background-color: $c_quinto;
+                    border-radius: 100%;
+                    color: white;
+                }
+            }
+        }
+        .iconos{
+            background-color: $c_terciario;
+            padding: 2rem;
+            div{
+                h2{
+                    font-size:4rem;
+                }
+            }
+        }
+    }    
+
+
+}
+
