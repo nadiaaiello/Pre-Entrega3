@@ -7,5 +7,16 @@ $c_cuarto:#3E3E9A;
 $c_quinto:#2E2D4D;
 
 //FONTS//
-$f_size_p_desktop:20px;
-$f_size_p_mobile:20px;
+
+.full-width{width:100%;}
+.pad_big{padding:3%}
+.center{text-align: center;}
+.space{margin:80px;}
+
+
+.bg_principal{background-color: $c_principal;}
+.bg_secundario{background-color: $c_secundario;}
+.bg_terciario{background-color: $c_terciario;}
+.bg_cuarto{background-color: $c_cuarto;}
+.bg_quinto{background-color: $c_quinto;}
+

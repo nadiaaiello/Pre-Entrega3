@@ -18,20 +18,18 @@ footer{
 }
 
 .formulario{
-    background-color: $c_quinto;
-    margin: 4rem 6rem;
-    padding: 3rem;
+    display: flex;
+    flex-shrink: unset;
     h3{color: white;}
 }
+@media (min-width:1024px){.formulario {margin:2%;} .mapas{flex-direction: row;}}
 
 //INDEX//
 
-.bodyIndex{
-    main{
+.mainIndex{
         .banner{
             padding:4rem 2rem;
             margin:0px;
-            background-color: $c_secundario;
             p, h1{color: white;}
             img{width:80%;}
             margin-bottom: 2rem;
@@ -54,7 +52,6 @@ footer{
             }
         }
         .iconos{
-            background-color: $c_terciario;
             padding: 2rem;
             div{
                 h2{
@@ -62,8 +59,22 @@ footer{
                 }
             }
         }
-    }    
+    
 
 
 }
 
+//PRODUCTOS//
+
+.mainProductos{
+    .title{text-align: center; width:100%;}
+    .categorias{ padding:2%;margin-bottom: 2%; h2,li{color:white}}
+    .cards {div{ width:28%; margin:2%;img{width:70%;}}}
+
+}
+
+//CONTACTO//
+.mainContacto{
+        a{font-size:200%; margin:30px;}
+        img{width:70%;}
+}

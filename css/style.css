@@ -12,6 +12,42 @@
   align-items: center;
 }
 
+.full-width {
+  width: 100%;
+}
+
+.pad_big {
+  padding: 3%;
+}
+
+.center {
+  text-align: center;
+}
+
+.space {
+  margin: 80px;
+}
+
+.bg_principal {
+  background-color: #2b2b70;
+}
+
+.bg_secundario {
+  background-color: #a09abc;
+}
+
+.bg_terciario {
+  background-color: #b8bccc;
+}
+
+.bg_cuarto {
+  background-color: #3E3E9A;
+}
+
+.bg_quinto {
+  background-color: #2E2D4D;
+}
+
 * {
   margin: 0px;
 }
@@ -38,27 +74,33 @@ footer {
 }
 
 .formulario {
-  background-color: #2E2D4D;
-  margin: 4rem 6rem;
-  padding: 3rem;
+  display: flex;
+  flex-shrink: unset;
 }
 .formulario h3 {
   color: white;
 }
 
-.bodyIndex main .banner {
+@media (min-width: 1024px) {
+  .formulario {
+    margin: 2%;
+  }
+  .mapas {
+    flex-direction: row;
+  }
+}
+.mainIndex .banner {
   padding: 4rem 2rem;
   margin: 0px;
-  background-color: #a09abc;
   margin-bottom: 2rem;
 }
-.bodyIndex main .banner p, .bodyIndex main .banner h1 {
+.mainIndex .banner p, .mainIndex .banner h1 {
   color: white;
 }
-.bodyIndex main .banner img {
+.mainIndex .banner img {
   width: 80%;
 }
-.bodyIndex main .links div {
+.mainIndex .links div {
   margin: 2rem;
   border-color: #2E2D4D;
   border-width: 0.2rem;
@@ -66,18 +108,44 @@ footer {
   border-radius: 30px;
   padding: 3%;
 }
-.bodyIndex main .links div h2 {
+.mainIndex .links div h2 {
   padding: 15px;
   background-color: #2E2D4D;
   border-radius: 100%;
   color: white;
 }
-.bodyIndex main .iconos {
-  background-color: #b8bccc;
+.mainIndex .iconos {
   padding: 2rem;
 }
-.bodyIndex main .iconos div h2 {
+.mainIndex .iconos div h2 {
   font-size: 4rem;
+}
+
+.mainProductos .title {
+  text-align: center;
+  width: 100%;
+}
+.mainProductos .categorias {
+  padding: 2%;
+  margin-bottom: 2%;
+}
+.mainProductos .categorias h2, .mainProductos .categorias li {
+  color: white;
+}
+.mainProductos .cards div {
+  width: 28%;
+  margin: 2%;
+}
+.mainProductos .cards div img {
+  width: 70%;
+}
+
+.mainContacto a {
+  font-size: 200%;
+  margin: 30px;
+}
+.mainContacto img {
+  width: 70%;
 }
 
 /*# sourceMappingURL=style.css.map */
